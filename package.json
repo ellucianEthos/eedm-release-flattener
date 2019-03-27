@@ -1,0 +1,23 @@
+{
+  "name": "eedm-release-flattener",
+  "version": "1.0.0",
+  "description": "Application that flattens/cleans a EEDM release into a single directory.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "mocha $(find tests -name '*.js')"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Ellucian",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "fs-extra": "^7.0.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.1"
+  }
+}
